@@ -30,3 +30,7 @@ Dokumentation: https://learningview.org/embed-api.php
 - Nach dem Check werden bei Fehlern **alle falschen Begriffe** erneut abgefragt. Falls weniger als ein Drittel (16 von 47) falsch waren, wird die Wiederholung zufällig mit bereits richtig beantworteten Begriffen auf 16 ergänzt. Bei mehr als 16 Fehlern werden alle falschen wiederholt.
 - Bei weiteren Fehlern folgt eine weitere verkürzte Runde nach demselben Prinzip. Welche Begriffe falsch waren, wird nie angezeigt.
 - Die nächste Hauptübung wird erst nach einer fehlerfreien Wiederholungsrunde freigeschaltet. LearningView-Erfolg wird erst ganz am Ende gemeldet.
+
+
+## Version 1.2 – Startfehler behoben
+Der Startknopf übergibt kein Klick-Ereignis mehr an die Wiederholungsfunktion. Start, erste Runde, Check und Wiederholungsstart wurden im Chromium-Browser getestet.
