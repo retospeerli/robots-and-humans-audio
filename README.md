@@ -34,3 +34,6 @@ Dokumentation: https://learningview.org/embed-api.php
 
 ## Version 1.2 – Startfehler behoben
 Der Startknopf übergibt kein Klick-Ereignis mehr an die Wiederholungsfunktion. Start, erste Runde, Check und Wiederholungsstart wurden im Chromium-Browser getestet.
+
+## Korrektur eyes / Augen
+Das Wortpaar «eyes – Augen» gehört zu Humans only, nicht zu Both. Somit: Humans 16, Both 15, Robots 16; insgesamt weiterhin 47 Begriffe.

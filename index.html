@@ -10,8 +10,8 @@
 <script>
 'use strict';
 const GROUPS=[
-[['skin','Haut'],['hair','Haare'],['blood','Blut'],['heart','Herz'],['brain','Gehirn'],['feelings','Gefühle'],['food','Essen'],['water','Wasser'],['eat','essen'],['drink','trinken'],['sleep','schlafen'],['grow','wachsen'],['cry','weinen'],['dream','träumen'],['feel pain','Schmerzen spüren']],
-[['head','Kopf'],['arms','Arme'],['hands','Hände'],['legs','Beine'],['feet','Füsse'],['eyes','Augen'],['voice','Stimme'],['body','Körper'],['walk','gehen'],['run','rennen'],['jump','springen'],['dance','tanzen'],['talk','sprechen'],['listen','zuhören'],['see','sehen'],['carry','tragen']],
+[['skin','Haut'],['hair','Haare'],['blood','Blut'],['heart','Herz'],['brain','Gehirn'],['feelings','Gefühle'],['food','Essen'],['water','Wasser'],['eyes','Augen'],['eat','essen'],['drink','trinken'],['sleep','schlafen'],['grow','wachsen'],['cry','weinen'],['dream','träumen'],['feel pain','Schmerzen spüren']],
+[['head','Kopf'],['arms','Arme'],['hands','Hände'],['legs','Beine'],['feet','Füsse'],['voice','Stimme'],['body','Körper'],['walk','gehen'],['run','rennen'],['jump','springen'],['dance','tanzen'],['talk','sprechen'],['listen','zuhören'],['see','sehen'],['carry','tragen']],
 [['battery','Akku'],['motor','Motor'],['wires','Kabel'],['computer','Computer'],['camera','Kamera'],['sensor','Sensor'],['metal','Metall'],['software','Software'],['charge','aufladen'],['scan','scannen'],['calculate','berechnen'],['record','aufnehmen'],['restart','neu starten'],['update','aktualisieren'],['switch on','einschalten'],['switch off','ausschalten']]
 ];
 const WORDS=GROUPS.flatMap((group,g)=>group.map(([en,de],i)=>({id:g+'-'+i,en,de,g})));
